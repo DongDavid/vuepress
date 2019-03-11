@@ -252,6 +252,7 @@ git reset HEAD readme.txt
 git stash list
 ```
 删除stash
+```
 git stash clear // 清空所有的记录
 git stash drop // 删除最早的一条记录
 git stash drop stash@{1} // 删除指定标号为1的记录
