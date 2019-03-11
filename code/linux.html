@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Linux 命令 | 桃之夭夭 灼灼其华</title>
+    <meta name="description" content="这个适用于多项目或者博客，展示多目录多文件">
+    <link rel="icon" href="/vuepress/favicon.ico">
+    
+    <link rel="preload" href="/vuepress/assets/css/0.styles.00de04e0.css" as="style"><link rel="preload" href="/vuepress/assets/js/app.26e27c63.js" as="script"><link rel="preload" href="/vuepress/assets/js/2.c9520b50.js" as="script"><link rel="preload" href="/vuepress/assets/js/12.937cfb80.js" as="script"><link rel="prefetch" href="/vuepress/assets/js/10.66bcaedf.js"><link rel="prefetch" href="/vuepress/assets/js/11.8441491b.js"><link rel="prefetch" href="/vuepress/assets/js/13.f8fae98c.js"><link rel="prefetch" href="/vuepress/assets/js/14.77768772.js"><link rel="prefetch" href="/vuepress/assets/js/15.1d261592.js"><link rel="prefetch" href="/vuepress/assets/js/16.f3da1aff.js"><link rel="prefetch" href="/vuepress/assets/js/17.c8aed8a1.js"><link rel="prefetch" href="/vuepress/assets/js/18.9bd144d9.js"><link rel="prefetch" href="/vuepress/assets/js/19.f2b103c0.js"><link rel="prefetch" href="/vuepress/assets/js/20.57e9c152.js"><link rel="prefetch" href="/vuepress/assets/js/3.382cf518.js"><link rel="prefetch" href="/vuepress/assets/js/4.7aaea85a.js"><link rel="prefetch" href="/vuepress/assets/js/5.8778f3b8.js"><link rel="prefetch" href="/vuepress/assets/js/6.303132b6.js"><link rel="prefetch" href="/vuepress/assets/js/7.13b37621.js"><link rel="prefetch" href="/vuepress/assets/js/8.8d782069.js"><link rel="prefetch" href="/vuepress/assets/js/9.93877128.js">
+    <link rel="stylesheet" href="/vuepress/assets/css/0.styles.00de04e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuepress/" class="home-link router-link-active"><!----> <span class="site-name">桃之夭夭 灼灼其华</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuepress/" class="nav-link">Home</a></div><div class="nav-item"><a href="/vuepress/code/" class="nav-link router-link-active">Code</a></div><div class="nav-item"><a href="/vuepress/life/" class="nav-link">Life</a></div><div class="nav-item"><a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">github</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  home-page
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  this project
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vuepress/" class="nav-link">Home</a></div><div class="nav-item"><a href="/vuepress/code/" class="nav-link router-link-active">Code</a></div><div class="nav-item"><a href="/vuepress/life/" class="nav-link">Life</a></div><div class="nav-item"><a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">github</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  home-page
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  this project
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/vuepress/code/Git.html" class="sidebar-link">git操作</a></li><li><a href="/vuepress/code/docker命令.html" class="sidebar-link">docker命令。</a></li><li><a href="/vuepress/code/sublime.html" class="sidebar-link">Sublime 3 使用记录</a></li><li><a href="/vuepress/code/Mysql.html" class="sidebar-link">Mysql使用记录</a></li><li><a href="/vuepress/code/git操作.html" class="sidebar-link">git操作命令</a></li><li><a href="/vuepress/code/vscode使用技巧.html" class="sidebar-link">vscode使用技巧</a></li><li><a href="/vuepress/code/linux.html" class="active sidebar-link">Linux 命令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#获取帮助" class="sidebar-link">获取帮助</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#退出当前用户" class="sidebar-link">退出当前用户</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#ls" class="sidebar-link">ls</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#pwd" class="sidebar-link">pwd</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#find" class="sidebar-link">find</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#mkdir" class="sidebar-link">mkdir</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#rmdir" class="sidebar-link">rmdir</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#rm" class="sidebar-link">rm</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#cp" class="sidebar-link">cp</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#mv" class="sidebar-link">mv</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#rename" class="sidebar-link">rename</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#cat" class="sidebar-link">cat</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#tail" class="sidebar-link">tail</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#head" class="sidebar-link">head</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#echo" class="sidebar-link">echo</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#df" class="sidebar-link">df</a></li><li class="sidebar-sub-header"><a href="/vuepress/code/linux.html#vi" class="sidebar-link">vi</a></li></ul></li><li><a href="/vuepress/code/布局例子.html" class="sidebar-link">flex布局</a></li><li><a href="/vuepress/code/docker.html" class="sidebar-link">docker</a></li><li><a href="/vuepress/code/mac下php添加扩展.html" class="sidebar-link">mac下php添加扩展</a></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="linux-命令"><a href="#linux-命令" aria-hidden="true" class="header-anchor">#</a> Linux 命令</h1> <blockquote><p>关于linux下的一些常用命令以及vi的命令</p></blockquote> <h2 id="获取帮助"><a href="#获取帮助" aria-hidden="true" class="header-anchor">#</a> 获取帮助</h2> <div class="language- extra-class"><pre class="language-text"><code>man commondname
+
+info commondname
+
+commondname --help
+
+</code></pre></div><h2 id="退出当前用户"><a href="#退出当前用户" aria-hidden="true" class="header-anchor">#</a> 退出当前用户</h2> <div class="language- extra-class"><pre class="language-text"><code>ctrl+d
+</code></pre></div><h2 id="ls"><a href="#ls" aria-hidden="true" class="header-anchor">#</a> ls</h2> <p>查看文件</p> <div class="language- extra-class"><pre class="language-text"><code>ls
+
+ls /xxx/xxx
+
+ls -alh 
+
+</code></pre></div><h2 id="pwd"><a href="#pwd" aria-hidden="true" class="header-anchor">#</a> pwd</h2> <p>显示当前所在目录</p> <h2 id="find"><a href="#find" aria-hidden="true" class="header-anchor">#</a> find</h2> <p>查找文件</p> <div class="language- extra-class"><pre class="language-text"><code>find 目录 -name 文件名
+find / -name &quot;文件名可以用正则&quot;
+
+</code></pre></div><h2 id="mkdir"><a href="#mkdir" aria-hidden="true" class="header-anchor">#</a> mkdir</h2> <p>创建多个目录 aa bb  同级的</p> <div class="language- extra-class"><pre class="language-text"><code>mkdir aa bb
+</code></pre></div><p>创建目录</p> <h2 id="rmdir"><a href="#rmdir" aria-hidden="true" class="header-anchor">#</a> rmdir</h2> <p>删除目录</p> <h2 id="rm"><a href="#rm" aria-hidden="true" class="header-anchor">#</a> rm</h2> <p>删除文件/目录</p> <p>-rf  r 表示允许删除目录 f表示不需要确认</p> <div class="language- extra-class"><pre class="language-text"><code>rm -rf xxx
+
+</code></pre></div><h2 id="cp"><a href="#cp" aria-hidden="true" class="header-anchor">#</a> cp</h2> <p>复制文件/文件夹</p> <div class="language- extra-class"><pre class="language-text"><code>cp -R xxx xxx
+cp -R 源文件 目标文件
+</code></pre></div><h2 id="mv"><a href="#mv" aria-hidden="true" class="header-anchor">#</a> mv</h2> <p>移动文件/目录</p> <div class="language- extra-class"><pre class="language-text"><code>mv -R 源文件 新位置
+</code></pre></div><p>重命名也是这个命令</p> <div class="language- extra-class"><pre class="language-text"><code>#把aa文件重命名为bb
+mv aa bb
+</code></pre></div><h2 id="rename"><a href="#rename" aria-hidden="true" class="header-anchor">#</a> rename</h2> <p>重命名</p> <div class="language- extra-class"><pre class="language-text"><code>
+</code></pre></div><h2 id="cat"><a href="#cat" aria-hidden="true" class="header-anchor">#</a> cat</h2> <p>查看文件 展示所有内容</p> <div class="language- extra-class"><pre class="language-text"><code>cat  aa.log
+
+cat aa.log |more
+
+tail -f aa.log |grep “notice”
+
+</code></pre></div><h2 id="tail"><a href="#tail" aria-hidden="true" class="header-anchor">#</a> tail</h2> <p>查看文件 从尾巴开始倒着看</p> <div class="language- extra-class"><pre class="language-text"><code># 展示倒数20行
+tail -20
+
+# 可以实时更新内容
+
+tail -f 
+
+# 查看所有2017-04-15有关的日子
+tail -f aa.log |grep &quot;2017-04-15&quot;
+</code></pre></div><h2 id="head"><a href="#head" aria-hidden="true" class="header-anchor">#</a> head</h2> <p>查看文件 从头开始看</p> <div class="language- extra-class"><pre class="language-text"><code>#查看前20行  默认10行
+head aa.log -20
+</code></pre></div><h2 id="echo"><a href="#echo" aria-hidden="true" class="header-anchor">#</a> echo</h2> <p>输出或写入到 指定位置</p> <div class="language- extra-class"><pre class="language-text"><code># 输出到命令行
+echo &quot;aaaa&quot;
+#输出的文件
+echo &quot;aaa&quot; &gt; aa.log
+#追加到文件
+echo &quot;aaa&quot; &gt;&gt; aa.log
+</code></pre></div><h2 id="df"><a href="#df" aria-hidden="true" class="header-anchor">#</a> df</h2> <p>查看磁盘情况</p> <div class="language- extra-class"><pre class="language-text"><code>file 查看文件类型
+
+#查看磁盘使用量
+df 
+
+# 1024kb计算
+df -h
+
+# 1000kb计算
+df -H 
+</code></pre></div><p>统计查看当前目录使用量</p> <div class="language- extra-class"><pre class="language-text"><code>df -sh
+
+#单独显示目录下每个文件的大小
+df -sh *
+</code></pre></div><h2 id="vi"><a href="#vi" aria-hidden="true" class="header-anchor">#</a> vi</h2> <div class="language- extra-class"><pre class="language-text"><code>i 在当前光标进入插入状态
+
+a 在当前光标后进入插入状态
+
+A 讲光标移动到当前行的行末并进入插入状态
+
+o 在当前行的下面插入新行，光标移动到新行的行首,进入插入状态
+
+O 在当前行的上面插入新行，光标移动到新行的行首,进入插入状态
+
+cw 删除当前光标到所在单词尾部的字符
+
+c$ 删除当前光标到行尾的字符，并进入插入状态
+
+c^ 删除当前光标之前到行首的字符(不包括光标上的字符)，并进入插入状态
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>h 左移
+i 右移
+j 上移
+k 下移
+
+ctrl +f 下翻页
+ctrl +b 上翻页
+ctrl +u 上翻半页
+ctrl +d 上翻半页
+
+shift +^ 光标跳到本行行首
+shift +$ 光标跳到本行行尾
+w 光标跳转到当前光标所在位置的后一个单词的首字母
+b 光标跳转到当前光标所在位置的前一个单词的首字母
+e 光标跳转到当前光标所在位置的后一个单词的尾字母
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>:set nu 显示行号
+:set nonu 取消行号显示
+1G 跳转到文件的首行
+gg 跳转到文件的首行
+G 跳转到文件的末尾行
+#G 跳转到文件中的第#行
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>x 删除当前光标所在字符
+dd 删除/剪切当前光标所在行
+dw 删除当前字符到单词尾(包括空格)
+de 删除当前字符到单词尾(不包括空格)
+d$ 删除当前字符到行尾的所有字符
+d^ 删除当前字符到行首的所有字符
+J 删除光标所在行行尾的换行符
+yy 复制当前行
+yw 复制当前光标到单词尾字符的内容
+y$ 负责当前光标到行尾的内容
+y^
+p 粘贴
+u 撤销当前操作
+U 撤销当前所有操作
+ctrl +r 对用u撤销的操作进行恢复
+
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>/word  从上往下查找word字符
+?word 从下往上查找word字符
+n 定位下一个匹配的被查找字符串
+N定位上一个匹配的被查找字符串
+:s/old/new 将当前行中查找到的第一个字符串old替换成new
+:s/old/new/g 将当前行中查找到的所有字符串old替换成new
+:#,#s/old/new/g 在行号&quot;#,#&quot;范围内将所有字符串old替换成new
+:%s/old/new/g 在整个文件范围内替换所有字符串old为new
+:s/old/new/c 在替换命令末尾加入c命令，将对每个替换动作提示用户进行确认
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/dongdavid/vuepress/edit/master/code/linux.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/vuepress/code/vscode使用技巧.html" class="prev">
+          vscode使用技巧
+        </a></span> <span class="next"><a href="/vuepress/code/布局例子.html">
+          flex布局
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vuepress/assets/js/app.26e27c63.js" defer></script><script src="/vuepress/assets/js/2.c9520b50.js" defer></script><script src="/vuepress/assets/js/12.937cfb80.js" defer></script>
+  </body>
+</html>

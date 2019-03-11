@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>docker命令。 | 桃之夭夭 灼灼其华</title>
+    <meta name="description" content="这个适用于多项目或者博客，展示多目录多文件">
+    <link rel="icon" href="/vuepress/favicon.ico">
+    
+    <link rel="preload" href="/vuepress/assets/css/0.styles.00de04e0.css" as="style"><link rel="preload" href="/vuepress/assets/js/app.26e27c63.js" as="script"><link rel="preload" href="/vuepress/assets/js/2.c9520b50.js" as="script"><link rel="preload" href="/vuepress/assets/js/10.66bcaedf.js" as="script"><link rel="prefetch" href="/vuepress/assets/js/11.8441491b.js"><link rel="prefetch" href="/vuepress/assets/js/12.937cfb80.js"><link rel="prefetch" href="/vuepress/assets/js/13.f8fae98c.js"><link rel="prefetch" href="/vuepress/assets/js/14.77768772.js"><link rel="prefetch" href="/vuepress/assets/js/15.1d261592.js"><link rel="prefetch" href="/vuepress/assets/js/16.f3da1aff.js"><link rel="prefetch" href="/vuepress/assets/js/17.c8aed8a1.js"><link rel="prefetch" href="/vuepress/assets/js/18.9bd144d9.js"><link rel="prefetch" href="/vuepress/assets/js/19.f2b103c0.js"><link rel="prefetch" href="/vuepress/assets/js/20.57e9c152.js"><link rel="prefetch" href="/vuepress/assets/js/3.382cf518.js"><link rel="prefetch" href="/vuepress/assets/js/4.7aaea85a.js"><link rel="prefetch" href="/vuepress/assets/js/5.8778f3b8.js"><link rel="prefetch" href="/vuepress/assets/js/6.303132b6.js"><link rel="prefetch" href="/vuepress/assets/js/7.13b37621.js"><link rel="prefetch" href="/vuepress/assets/js/8.8d782069.js"><link rel="prefetch" href="/vuepress/assets/js/9.93877128.js">
+    <link rel="stylesheet" href="/vuepress/assets/css/0.styles.00de04e0.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/vuepress/" class="home-link router-link-active"><!----> <span class="site-name">桃之夭夭 灼灼其华</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/vuepress/" class="nav-link">Home</a></div><div class="nav-item"><a href="/vuepress/code/" class="nav-link router-link-active">Code</a></div><div class="nav-item"><a href="/vuepress/life/" class="nav-link">Life</a></div><div class="nav-item"><a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">github</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  home-page
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  this project
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/vuepress/" class="nav-link">Home</a></div><div class="nav-item"><a href="/vuepress/code/" class="nav-link router-link-active">Code</a></div><div class="nav-item"><a href="/vuepress/life/" class="nav-link">Life</a></div><div class="nav-item"><a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  External
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">github</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://www.dongdavid.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  home-page
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  this project
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></div></div> <a href="https://github.com/dongdavid/vuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/vuepress/code/Git.html" class="sidebar-link">git操作</a></li><li><a href="/vuepress/code/docker命令.html" class="active sidebar-link">docker命令。</a></li><li><a href="/vuepress/code/sublime.html" class="sidebar-link">Sublime 3 使用记录</a></li><li><a href="/vuepress/code/Mysql.html" class="sidebar-link">Mysql使用记录</a></li><li><a href="/vuepress/code/git操作.html" class="sidebar-link">git操作命令</a></li><li><a href="/vuepress/code/vscode使用技巧.html" class="sidebar-link">vscode使用技巧</a></li><li><a href="/vuepress/code/linux.html" class="sidebar-link">Linux 命令</a></li><li><a href="/vuepress/code/布局例子.html" class="sidebar-link">flex布局</a></li><li><a href="/vuepress/code/docker.html" class="sidebar-link">docker</a></li><li><a href="/vuepress/code/mac下php添加扩展.html" class="sidebar-link">mac下php添加扩展</a></li></ul> </aside> <main class="page"> <div class="content default"><h1 id="docker命令。"><a href="#docker命令。" aria-hidden="true" class="header-anchor">#</a> docker命令。</h1> <p>Commands:
+attach    Attach to a running container                 # 当前 shell 下 attach 连接指定运行镜像
+build     Build an image from a Dockerfile              # 通过 Dockerfile 定制镜像
+commit    Create a new image from a container's changes # 提交当前容器为新的镜像
+cp        Copy files/folders from the containers filesystem to the host path
+# 从容器中拷贝指定文件或者目录到宿主机中
+create    Create a new container                        # 创建一个新的容器，同 run，但不启动容器
+diff      Inspect changes on a container's filesystem   # 查看 docker 容器变化
+events    Get real time events from the server          # 从 docker 服务获取容器实时事件
+exec      Run a command in an existing container        # 在已存在的容器上运行命令
+export    Stream the contents of a container as a tar archive<br>
+# 导出容器的内容流作为一个 tar 归档文件[对应 import ]
+history   Show the history of an image                  # 展示一个镜像形成历史
+images    List images                                   # 列出系统当前镜像
+import    Create a new filesystem image from the contents of a tarball<br>
+# 从tar包中的内容创建一个新的文件系统映像[对应 export]
+info      Display system-wide information               # 显示系统相关信息
+inspect   Return low-level information on a container   # 查看容器详细信息
+kill      Kill a running container                      # kill 指定 docker 容器
+load      Load an image from a tar archive              # 从一个 tar 包中加载一个镜像[对应 save]
+login     Register or Login to the docker registry server<br>
+# 注册或者登陆一个 docker 源服务器
+logout    Log out from a Docker registry server         # 从当前 Docker registry 退出
+logs      Fetch the logs of a container                 # 输出当前容器日志信息
+port      Lookup the public-facing port which is NAT-ed to PRIVATE_PORT
+# 查看映射端口对应的容器内部源端口
+pause     Pause all processes within a container        # 暂停容器
+ps        List containers                               # 列出容器列表
+pull      Pull an image or a repository from the docker registry server
+# 从docker镜像源服务器拉取指定镜像或者库镜像
+push      Push an image or a repository to the docker registry server
+# 推送指定镜像或者库镜像至docker源服务器
+restart   Restart a running container                   # 重启运行的容器
+rm        Remove one or more containers                 # 移除一个或者多个容器
+rmi       Remove one or more images<br>
+# 移除一个或多个镜像[无容器使用该镜像才可删除，否则需删除相关容器才可继续或 -f 强制删除]
+run       Run a command in a new container
+# 创建一个新的容器并运行一个命令
+save      Save an image to a tar archive                # 保存一个镜像为一个 tar 包[对应 load]
+search    Search for an image on the Docker Hub         # 在 docker hub 中搜索镜像
+start     Start a stopped containers                    # 启动容器
+stop      Stop a running containers                     # 停止容器
+tag       Tag an image into a repository                # 给源中镜像打标签
+top       Lookup the running processes of a container   # 查看容器中运行的进程信息
+unpause   Unpause a paused container                    # 取消暂停容器
+version   Show the docker version information           # 查看 docker 版本号
+wait      Block until a container stops, then print its exit code<br>
+# 截取容器停止时的退出状态值
+Run 'docker COMMAND --help' for more information on a command.</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/dongdavid/vuepress/edit/master/code/docker命令.md" target="_blank" rel="noopener noreferrer">Edit this page</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/vuepress/code/Git.html" class="prev">
+          git操作
+        </a></span> <span class="next"><a href="/vuepress/code/sublime.html">
+          Sublime 3 使用记录
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/vuepress/assets/js/app.26e27c63.js" defer></script><script src="/vuepress/assets/js/2.c9520b50.js" defer></script><script src="/vuepress/assets/js/10.66bcaedf.js" defer></script>
+  </body>
+</html>
